@@ -23,8 +23,8 @@ router.post('/', async (req, res) => {
         res.sendStatus(411)
         return
     }
+
     const processedUser = new ProcessUser(user)
-    
     if (await processedUser.add()) {
         res.sendStatus(201)
     }
