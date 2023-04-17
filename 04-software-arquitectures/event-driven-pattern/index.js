@@ -7,17 +7,7 @@
 * - Great scalability and flexibily
 * - Great modularity and decoupling among the app's components
 *
-*
-*
-*
-*
-*
 * (service > event) < consumer
-*
-*
-*
-*
-*
 *
 */
 
